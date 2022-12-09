@@ -31,7 +31,7 @@ rocket_db_pools = {git = "https://github.com/SergioBenitez/Rocket", rev = "f0d67
 rocket_dyn_templates = {version = "= 0.1.0-rc.2", features = ["tera"]}
 serde = "1.0.130"
 sha2 = "0.10.2"
-sqlx = {version = "0.5.13", features = ["postgres", "uuid", "runtime-tokio-rustls", "chrono"]}
+sqlx = {version = "0.6", features = ["postgres", "uuid", "runtime-tokio-rustls", "chrono"]}
 time = {version = "0.3", features = ["std"]}
 tokio = {version = "1.16", features = ["fs", "rt"]}
 uuid = {version = "1", features = ["v4"]}
