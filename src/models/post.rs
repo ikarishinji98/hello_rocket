@@ -12,7 +12,7 @@ use rocket::fs::TempFile;
 use rocket::serde::Serialize;
 use rocket_db_pools::sqlx::{FromRow, PgConnection};
 use rocket_db_pools::{sqlx::Acquire, Connection};
-use uuid::Uuid;
+use rocket::serde::uuid::Uuid;
 
 #[derive(Serialize)]
 pub struct ShowPost {
