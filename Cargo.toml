@@ -26,9 +26,9 @@ jwt = "0.16.0"
 log = "0.4"
 rand_core = {version = "0.6", features = ["std"]}
 regex = "1.5.4"
-rocket = {version = "0.5.0-rc.2", features = ["uuid", "secrets", "json"]}
-rocket_db_pools = {version = "0.1.0-rc.2", features = ["sqlx_postgres"]}
-rocket_dyn_templates = {version = "0.1.0-rc.2", features = ["tera"]}
+rocket = {version = "0.5.0-rc.1", features = ["uuid", "secrets", "json"]}
+rocket_db_pools = {version = "0.1.0-rc.1", features = ["sqlx_postgres"]}
+rocket_dyn_templates = {version = "0.1.0-rc.1", features = ["tera"]}
 serde = "1.0.130"
 sha2 = "0.10.2"
 sqlx = {version = "0.5", features = ["postgres", "uuid", "runtime-tokio-rustls", "chrono"]}
