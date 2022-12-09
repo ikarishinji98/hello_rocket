@@ -34,7 +34,7 @@ sha2 = "0.10.2"
 sqlx = {version = "0.5.13", features = ["postgres", "uuid", "runtime-tokio-rustls", "chrono"]}
 time = {version = "0.3", features = ["std"]}
 tokio = {version = "1.16", features = ["fs", "rt"]}
-uuid = {version = "0.8.2", features = ["v4"]}
+uuid = {version = "1", features = ["v4"]}
 zxcvbn = "2"
 
 [dev-dependencies]
