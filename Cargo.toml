@@ -26,7 +26,8 @@ jwt = "0.16.0"
 log = "0.4"
 rand_core = {version = "0.6", features = ["std"]}
 regex = "1.5.4"
-rocket = {version = "= 0.5.0-rc.2", features = ["uuid", "secrets", "json"]}
+#rocket = {version = "= 0.5.0-rc.2", features = ["uuid", "secrets", "json"]}
+rocket = {git = "https://github.com/SergioBenitez/Rocket", rev = "f0d678d", features = ["uuid", "secrets", "json"]}
 rocket_db_pools = {git = "https://github.com/SergioBenitez/Rocket", rev = "f0d678d", features = ["sqlx_postgres"]}
 rocket_dyn_templates = {version = "= 0.1.0-rc.2", features = ["tera"]}
 serde = "1.0.130"
