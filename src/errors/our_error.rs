@@ -5,7 +5,7 @@ use sqlx::Error as sqlxError;
 use std::borrow::Cow;
 use std::error::Error;
 use std::fmt;
-use rocket::serde::uuid::Error as uuidError;
+use uuid::Error as uuidError;
 
 #[derive(Debug)]
 pub struct OurError {
