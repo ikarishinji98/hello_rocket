@@ -19,7 +19,7 @@ use rocket_db_pools::sqlx::{Acquire, FromRow, PgConnection};
 use rocket_db_pools::Connection;
 use sha2::Sha256;
 use std::collections::BTreeMap;
-use rocket::serde::uuid::Uuid;
+use uuid::Uuid;
 use zxcvbn::zxcvbn;
 
 #[derive(Debug, FromRow, FromForm, Serialize)]
