@@ -23,7 +23,7 @@ mod tests {
     use crate::models::post_type::PostType;
     use crate::traits::DisplayPostContent;
     use chrono::{offset::Utc, TimeZone};
-    use rocket::serde::uuid::Uuid;
+    use uuid::Uuid;
 
     #[test]
     fn test_raw_html() {
